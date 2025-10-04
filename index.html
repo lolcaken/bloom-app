@@ -1,197 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bloom Watch App</title>
-<style>
-    body, h1, h2, h3, p, ul {
-        margin: 0;
-        padding: 0;
-    }
-    body {
-        font-family: 'Arial', sans-serif;
-        background: linear-gradient(180deg, #0a0e27, #02040d);
-        color: #fff;
-        padding: 20px;
-        line-height: 1.6;
-    }
-    a {
-        color: #64b5f6;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Watch App</title>
+    <style>
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(180deg, #0a0e27, #02040d);
+            color: #fff;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        a {
+            color: #64b5f6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
 
-    .container {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    .section {
-        background-color: rgba(25, 32, 72, 0.85);
-        padding: 25px;
-        border-radius: 12px;
-        margin: 25px 0;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-    }
+        .section {
+            background-color: rgba(25, 32, 72, 0.85);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
 
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        margin-bottom: 10px;
-        text-shadow: 2px 2px 5px #00000088;
-    }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px #00000088;
+        }
 
-    h2 {
-        color: #64b5f6;
-        font-size: 2em;
-        margin-bottom: 15px;
-        border-bottom: 2px solid #0000cc;
-        padding-bottom: 8px;
-        text-shadow: 1px 1px 3px #00000088;
-    }
+        h2 {
+            color: #64b5f6;
+            font-size: 2em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0000cc;
+            padding-bottom: 8px;
+            text-shadow: 1px 1px 3px #00000088;
+        }
 
-    h3 {
-        color: #64b5f6;
-        margin-bottom: 10px;
-    }
+        h3 {
+            color: #64b5f6;
+            margin-bottom: 10px;
+        }
 
-    ul {
-        padding-left: 20px;
-        margin-bottom: 10px;
-    }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
 
-    li {
-        margin-bottom: 10px;
-    }
+        li {
+            margin-bottom: 10px;
+        }
 
-    .center {
-        text-align: center;
-    }
+        .center {
+            text-align: center;
+        }
 
-    video {
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.6);
-    }
+        video {
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+        }
 
-    .highlight {
-        background-color: rgba(255, 152, 0, 0.2);
-        padding: 20px;
-        border-radius: 10px;
-        margin: 15px 0;
-        font-weight: bold;
-    }
+        .highlight {
+            background-color: rgba(255, 152, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-weight: bold;
+        }
 
-    footer {
-        text-align: center;
-        font-size: 0.9em;
-        color: #bbb;
-        margin-top: 30px;
-    }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #bbb;
+            margin-top: 30px;
+        }
 
-    footer a {
-        color: #64b5f6;
-    }
+        footer a {
+            color: #64b5f6;
+        }
 
-    .subtext {
-        margin-top: 10px;
-        font-size: 1.2em;
-        color: #bbdefb;
-    }
-</style>
+        .subtext {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #bbdefb;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-    <h1>Bloom Watch App</h1>
-    <h2 class="center" style="color:#BBDEFB;">NASA Space Apps Challenge 2025</h2>
-    <p class="center"><strong>Moath & Hafsa 8B</strong></p>
+    <div class="container">
+        <h1>Bloom Watch App</h1>
+        <h2 class="center" style="color:#BBDEFB;">NASA Space Apps Challenge 2025</h2>
+        <p class="center"><strong>Moath & Hafsa 8B</strong></p>
 
-    <div style="text-align: center; margin: 20px 0;">
-        <video width="100%" max-width="900" controls autoplay muted loop>
-            <source src="Flower Blooming Data Logger Hafsa 8B.webm" type="video/webm">
-            your browser does not support the video tag.
-        </video>
-        <p class="subtext">Blooming Flower Data Logger</p>
-    </div>
-
-    <div class="section">
-        <h2>Project Overview</h2>
-        <p>The "Bloom Watch App" helps communities, researchers, and policymakers monitor and respond to harmful algal blooms (HABs). Using NASA satellite data and local reporting, it provides real-time information about water quality and bloom spread.</p>
-        <p>The app empowers people to track blooms, receive alerts, and make informed public health and environmental decisions. It's designed to be accessible to both experts and the general public.</p>
-        <p>Users can contribute to citizen science by reporting bloom activity and supporting a global monitoring network.</p>
-    </div>
-
-    <div class="section">
-        <h2>The Challenge</h2>
-        <p class="highlight">Create a mobile-friendly solution that improves our ability to monitor and respond to harmful algal blooms, combining NASA Earth data with user-friendly tools to track and predict bloom activity.</p>
-        <h3>Key Features</h3>
-        <ul>
-            <li><strong>Real-Time Monitoring:</strong> Detect blooms as they occur using NASA satellite data.</li>
-            <li><strong>Alerts & Notifications:</strong> Send warnings to communities near affected water bodies.</li>
-            <li><strong>Citizen Science:</strong> Users can report bloom sightings and water quality observations.</li>
-            <li><strong>Data Visualization:</strong> Interactive maps and charts for researchers and public.</li>
-            <li><strong>Educational Tools:</strong> Info about bloom causes, risks, and prevention strategies.</li>
-        </ul>
-        <h3>Key Considerations</h3>
-        <ul>
-            <li>Make satellite data easy to understand.</li>
-            <li>Support both local communities and researchers.</li>
-            <li>Improve tracking accuracy through citizen input.</li>
-            <li>Innovative compared to existing tools.</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Resources</h2>
-        <h3>NASA Data Sources</h3>
-        <ul>
-            <li><strong>MODIS & VIIRS:</strong> Satellite imagery for water quality changes.</li>
-            <li><strong>Earth Observing System Data:</strong> Access NASA Earth science datasets.</li>
-            <li><strong>Global Precipitation Measurement:</strong> Rainfall data affecting bloom development.</li>
-            <li><strong>NASA Earthdata Portal:</strong> Download hub for Earth science data.</li>
-        </ul>
-
-        <h3>Tools & Technologies</h3>
-        <ul>
-            <li><strong>Google Earth Engine:</strong> Satellite data analysis.</li>
-            <li><strong>Leaflet.js:</strong> Interactive maps.</li>
-            <li><strong>TensorFlow:</strong> Predictive modeling of bloom activity.</li>
-            <li><strong>React Native:</strong> Cross-platform mobile app development.</li>
-        </ul>
-
-        <h3>Educational Resources</h3>
-        <ul>
-            <li><strong>NASA Earth Science:</strong> Info about oceans, lakes, ecosystems.</li>
-            <li><strong>NASA Applied Sciences:</strong> Case studies on harmful algal blooms.</li>
-            <li><strong>Citizen Science Projects:</strong> Examples of community monitoring efforts.</li>
-        </ul>
-    </div>
-
-    <div class="section center">
-        <h2>Challenge Timeline</h2>
-        <div class="highlight">
-            <h3>Time Until Challenge Submission Deadline</h3>
-            <p style="font-size:1.5em; font-weight:bold; color:#ff9800;">October 15, 2025</p>
-        </div>
-        <h3>Important Dates</h3>
-        <ul>
-            <li><strong>Challenge Launch:</strong> October 1, 2025</li>
-            <li><strong>Team Formation:</strong> October 1-7, 2025</li>
-            <li><strong>Local Hackathons:</strong> October 8-10, 2025</li>
-            <li><strong>Project Submission:</strong> October 15, 2025</li>
-            <li><strong>Global Nominee Announcement:</strong> November 1, 2025</li>
-            <li><strong>Global Winners:</strong> December 15, 2025</li>
-        </ul>
-    </div>
-
-    <footer>
-        <p><strong>Created by Moath & Hafsa</strong></p>
-        <p>Contact: <a href="mailto:Moathmahmoud7086@pristineschool.com">Moathmahmoud7086@pristineschool.com</a></p>
-        <p><a href="mailto:hafsasalman5677@pristineschool.com">hafsasalman5677@pristineschool.com</a></p>
-    </footer>
+        <div style="text-align: center; margin: 20px 0;">
+    <video width="100%" style="max-width: 900px;" controls autoplay muted loop>
+        <source src="Flower Blooming Data Logger Hafsa 8B.mp4" type="video/mp4">
+        your browser does not support the video tag.
+    </video>
+    <p class="subtext">Blooming Flower Data Logger</p>
 </div>
+
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>The "Bloom Watch App" is an interactive tool designed to track and manage data on flower blooming events across different continents. It allows users to report new sightings and query existing records, making it a valuable resource for environmental monitoring, research, and education.</p>
+            <p>By collecting data on the location, size, and timing of blooms, the app creates a centralized database that can be used to identify patterns, study ecological changes, and inform conservation efforts. Its simple command-line interface makes it accessible for anyone to contribute to or explore the global bloom record.</p>
+        </div>
+
+        <div class="section">
+            <h2>The Challenge</h2>
+            <p class="highlight">Develop an intuitive system for tracking and analyzing flower blooming data globally, enabling both contributions from citizen scientists and easy access to information for researchers and enthusiasts.</p>
+            <h3>Key Features</h3>
+            <ul>
+                <li><strong>Data Collection:</strong> Users can report new flower blooming instances by specifying the continent, number of hectares, month, and year.</li>
+                <li><strong>Interactive Querying:</strong> Retrieve stored bloom data by filtering through month, year, and continent criteria.</li>
+                <li><strong>Centralized Storage:</strong> All reported data is saved and managed within the application for future reference and analysis.</li>
+                <li><strong>User-Friendly Interface:</strong> A straightforward text-based interface guides users through the process of reporting and searching for data.</li>
+            </ul>
+            <h3>Key Considerations</h3>
+            <ul>
+                <li>Ensuring data integrity and ease of entry during the reporting phase.</li>
+                <li>Making stored information easily searchable and understandable.</li>
+                <li>Providing clear feedback to users after each operation (e.g., confirming data entry or reporting no results).</li>
+                <li>Designing the system to be scalable for a growing dataset.</li>
+            </ul>
+        </div>
+
+        <div class="section center">
+            <h2>Challenge Timeline</h2>
+            <div class="highlight">
+                <h3>Important Dates for NASA Space Apps Challenge 2025</h3>
+                <ul>
+                    <li><strong>Challenge Launch:</strong> October 1, 2025</li>
+                    <li><strong>Team Formation:</strong> October 1-7, 2025</li>
+                    <li><strong>Hackathon Period:</strong> October 8-11, 2025</li>
+                    <li><strong>Project Submission Deadline:</strong> October 5, 2025, 11:59 p.m. (local time)</li>
+                    <li><strong>Hackathon Ends:</strong> October 5, 2025, 11:59 p.m.</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Note:</strong> NASA Space Apps Challenge is a global hackathon; dates may vary by Local Event. Please confirm your event schedule with your Local Lead.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Created by Moath & Hafsa</strong></p>
+            <p>Contact: <a href="mailto:Moathmahmoud7086@pristineschool.com">Moathmahmoud7086@pristineschool.com</a></p>
+            <p><a href="mailto:hafsasalman5677@pristineschool.com">hafsasalman5677@pristineschool.com</a></p>
+        </footer>
+    </div>
 </body>
 </html>
